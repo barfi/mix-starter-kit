@@ -5,9 +5,15 @@ mix.js('src/js/app.js', 'dist/js')
     .setPublicPath('dist');
 mix.disableNotifications();
 
+
+/**
+ * Use this with command npm run watch
+ * for browser live reloading each recompiling
+ */
+
 // mix.browserSync({
 //     proxy: 'laravel-mix.loc/dist',
-//     files: ["dist/css/app.css", "dist/*.js","dist/*.html"]
+//     files: ["dist/css/*.css", "dist/js/*.js","*.html"]
 // });
 
 
