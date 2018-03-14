@@ -4,3 +4,9 @@
  * Edit webpack.mix.js file for your needs.
  * Let's make something great!
  */
+
+
+$variable: green;
+body {
+    color: $variable;
+}
