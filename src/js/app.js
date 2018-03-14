@@ -4,3 +4,11 @@
  * Edit webpack.mix.js file for your needs.
  * Let's make something great!
  */
+
+class Example {
+    constructor(message) {
+        console.log(message)
+    }
+}
+
+const example = new Example("Hello World");
