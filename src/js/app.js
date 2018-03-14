@@ -11,4 +11,4 @@ class Example {
     }
 }
 
-const example = new Example("Hello World");
+new Example("Hello World");
